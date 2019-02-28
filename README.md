@@ -30,7 +30,8 @@ dependencies {
 
     ...
     
-    compile 'com.github.peterguo2000:conditions-evaluator:1.0.1-RELEASE'
+    compile 'com.conditionsevaluator:conditions-evaluator:1.0.3-RELEASE'
+//or	compile 'com.github.peterguo2000:conditions-evaluator:1.0.3-RELEASE'
     
 }
 
