@@ -14,14 +14,13 @@ public class ConditionEvaluatorTestsSmall {
     public void test() throws Exception {
     	String x = "4";
     	
-		boolean result = ConditionsEvaluator.newInstance()
+    	boolean result = ConditionsEvaluator.newInstance()
 		    	.addNecessary(
 		    			Condition.newInstance()
 						.applyRule(a -> "3".equals(a))
 						.toValue(x))
 		    	.evaluate();
-		Assert.assertFalse(result);
-
+    	Assert.assertFalse(result);
     }
     
 }

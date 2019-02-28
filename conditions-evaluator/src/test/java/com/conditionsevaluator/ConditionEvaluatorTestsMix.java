@@ -39,10 +39,8 @@ public class ConditionEvaluatorTestsMix {
     	String x = "4";
     	Integer y = 2;
     	StringBuilder resultMessage = new StringBuilder();
-    	x = (x == null ? "" : x);
-    	y = (y == null ? 0 : y);
     	
-		boolean result = ConditionsEvaluator.newInstance()
+    	boolean result = ConditionsEvaluator.newInstance()
 				.addSufficient(getCondition1(x, y))
 		    	.addNecessary(getCondition2(x, y))
 		    	.addNecessary(getCondition3(x, y))
@@ -53,11 +51,11 @@ public class ConditionEvaluatorTestsMix {
 		    	.evaluate(a -> 
 		    	resultMessage.append(a));
 
-		if (!result) {
+    	if (!result) {
 			Assert.assertEquals("x should not be 4. that is necessary.", resultMessage.toString());			
-		} else {
+    	} else {
 			Assert.fail();
-		}
+    	}
     }
     
 }

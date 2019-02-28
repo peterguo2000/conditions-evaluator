@@ -50,15 +50,15 @@ public class ConditionEvaluatorTestsLarge {
     	getNecessaryConditions(x, y)
     	.forEach( a -> evaluator.addNecessary(a));
     	
-		boolean result = evaluator
+    	boolean result = evaluator
 				.evaluate(a -> 
 				resultMessage.append(a));
 
-		if (!result) {
+    	if (!result) {
 			Assert.assertEquals("x should not be 4. that is necessary.", resultMessage.toString());			
-		} else {
+    	} else {
 			Assert.fail();
-		}
+    	}
     }
     
 }
