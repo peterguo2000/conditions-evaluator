@@ -3,7 +3,7 @@ This is a JAVA8 JAR for logical conditions evaluation.
 
 The aim of this lib is to reduce the if-else statements during developmennt by abstractinng conditions to sufficient conditions or necessary conditions. 
 
-Hope it would be helpful in refactoring existing project to make easy to understand and maintain.
+Hope it would be helpful in refactoring existing project to make it easy to understand and maintain.
 
 Coding guild:
 
