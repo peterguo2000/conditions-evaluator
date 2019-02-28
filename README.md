@@ -14,6 +14,8 @@ https://github.com/peterguo2000/conditions-evaluator/tree/master/conditions-eval
 
 Procedure to import the JAR into Gradle projects:
 
+(gitpack is a morden tool for open source lib publishing. Go to its websit if you are confused.)
+
 Step 1: in build.gradle file:
 
 repositories {
