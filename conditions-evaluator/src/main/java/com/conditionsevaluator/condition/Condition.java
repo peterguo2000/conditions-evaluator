@@ -39,7 +39,6 @@ public class Condition implements Meetable {
 	}
 	
 	public Meetable applyRule(Predicate<Object> rule) {
-		CEUtils.checkNotNull(description);
 		matchers.add(new Matcher<Object>(rule, null));
 		return this;
 	}
