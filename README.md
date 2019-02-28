@@ -39,7 +39,7 @@ dependencies {
 
 Step 2: in project root, run ./gradlew build.
 
-Step 3: in IDE (e.g. STS), right click the project and run gradle update.
+Step 3: in IDE (e.g. STS), right click the project and run gradle -> Refresh Gradle Project.
 
 Step 4. import com.conditionsevaluator.ConditionsEvaluator and call its API.
 
